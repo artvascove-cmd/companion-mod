@@ -1,35 +1,12 @@
 {
     "schemaVersion": "1.0",
     "title": "Personalized Companion Mod",
-    "tagline": "Your unique customizable companion that guides you to ores, structures, and animals with a color-coded battery system.",
-    "description": "A custom Minecraft: Java Edition multiplayer-ready mod where every player gets a unique companion. Features inventory slots for iron and redstone power, battery upgrades, color indicators (Blue, Green, Yellow, Red, Black), and particle tracking trails.",
-    "games": [
+    "tagline": "Your unique customizable companion.",
+    "description": "A custom Minecraft multiplayer-ready mod with battery system.",
+    "minecraftVersion": "1.20.1",
+    "files": [
         {
-            "id": "minecraft-java",
-            "version": "1.20.1"
-        }
-    ],
-    "multiplayer": {
-        "maxPlayers": 8,
-        "connect": {
-            "address": {
-                "log": "{minecraft-instance}/logs/latest.log",
-                "after": "Open LAN port "
-            }
-        }
-    },
-    "credits": [
-        {
-            "name": "Player",
-            "role": "Creator"
-        }
-    ],
-    "license": "MIT",
-    "remixAllowed": true,
-    "components": [
-        {
-            "type": "mod",
-            "fileName": "companion-mod-1.0.0.jar",
+            "path": "companion-mod-1.0.0.jar",
             "destination": "mods"
         }
     ]
