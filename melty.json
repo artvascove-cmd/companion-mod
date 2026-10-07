@@ -1,10 +1,1 @@
-{
-    "schemaVersion": "1.0",
-    "components": [
-        {
-            "type": "mod",
-            "fileName": "companion-mod-1.0.0.jar",
-            "destination": "mods"
-        }
-    ]
-}
+﻿{"schemaVersion": "1.0", "components": [{"type": "mod", "fileName": "companion-mod-1.0.0.jar", "destination": "mods"}]}
